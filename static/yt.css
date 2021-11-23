@@ -1,0 +1,76 @@
+body{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+
+
+
+}
+#div #url{
+    
+    border: 2px black dashed;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    margin-left: 25%;
+    margin-top: 7%;
+}
+#div #bt{
+    
+    
+    transition: 0.5s;
+    color: dimgrey;
+    font-size: 150%;
+    background-color: gold;
+    
+    
+}
+#div #bt:hover{
+    
+    font-size: 240%;
+}
+
+#img{
+    border: 2px red solid;
+    
+    margin-left: 25%;
+    width: 1000px;
+    height: 600px;
+    
+}
+#linkb a{
+    text-decoration: none;
+    margin-left: 10%;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    background-color: darkslateblue;
+}
+#linkb a:hover{
+    transform: scale(1);
+    border: 1px white solid;
+
+}
+
+
+#linkb #a{
+    margin-left:35%;
+}
+
+
+#stat_content #h2{
+    background-color: white;
+    font-size: 45px;
+}
+#pname{
+    display: inline-block;
+    margin-left: 43%;
+    font-size: 50px;
+    border: 2px red dashed;
+    background-color: rgb(168, 47, 47);
+}
+#pdis{
+    font-size: 25px;
+
+}
