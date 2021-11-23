@@ -4,7 +4,7 @@ import time
 
 app = Flask(__name__)
 app.secret_key = 'qwertyuioplkjhgfdsazxcvbnm'
-@app.route("/yt", methods =["GET", "POST"])
+@app.route("/", methods =["GET", "POST"])
 def yt():
     
     if request.form.get("btsabt"):
